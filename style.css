@@ -1,0 +1,133 @@
+/* Set a background image */
+body {
+    background-image: url("https://images.unsplash.com/photo-1542596022-c56cfb34188a");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Set a custom font */
+  body, button {
+    font-family: 'Lato', sans-serif;
+  }
+
+/* Style the navbar */
+
+  .navbar {
+    border-radius: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .navbar:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+  }
+
+  /* Style the container */
+  .container {
+    background: linear-gradient(to bottom, #ff9800, #ff5722);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  /* Style the container on hover */
+  .container:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+  }
+  
+  /* Style the input group */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the input */
+  .form-control {
+    border-radius: 0;
+  }
+  
+  /* Style the task container */
+  .task-container {
+    margin-top: 20px;
+  }
+  
+  /* Style the task list */
+  .list-group {
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  /* Style the task list on hover */
+  .list-group:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+  }
+  
+  /* Style the list item */
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  /* Style the list item on hover */
+  .list-group-item:hover {
+    background: linear-gradient(to bottom, #fff9c4, #fff59d);
+    cursor: pointer;
+    color: #a00;
+  }
+  
+  /* Style the checkbox */
+  .list-group-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style the delete icon */
+  .list-group-item i {
+    font-size: 24px;
+    color: #dc3545;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .list-group-item i:hover {
+    color: #a00;
+  }
+  
+  /* Style the last added task element */
+  #lastAddedTask {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  /* Style the last added task element on hover */
+  #lastAddedTask:hover {
+    background: linear-gradient(to bottom, #fff9c4, #fff59d);
+    cursor: pointer;
+    color: #a00;
+  }
